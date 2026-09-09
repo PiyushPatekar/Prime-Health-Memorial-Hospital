@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find a Doctor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+
+  <body>
+    <!-- Header Start -->
+     <header>
+          <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Logo" width="340" height="60" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-bottom " id="navbarNav">
+
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-3">
+                    <a class="nav-link fw-semibold" href="about.html">About Us</a>
+                  </li>
+
+                  <li class="nav-item dropdown mx-3">
+                    <a class="nav-link dropdown-toggle fw-semibold" href="patient_care.html" data-bs-toggle="dropdown">
+                      Patient Care
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="find_doctor.html">Find Doctor</a></li>
+                      <li><a class="dropdown-item" href="appointments.html">Book Appointment</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown mx-3">
+                    <a class="nav-link dropdown-toggle fw-semibold" href="service.html" data-bs-toggle="dropdown">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="dianostic_services.html">Our Specialities</a></li>
+                      <li><a class="dropdown-item" href="homeservices.html">Home Care Services</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown mx-3">
+                    <a class="nav-link dropdown-toggle fw-semibold" href="academics.html" data-bs-toggle="dropdown">
+                      Academics
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="programs.html">Programs</a></li>
+                      <li><a class="dropdown-item" href="internship.html">Internship & Observership</a></li>
+                      <li><a class="dropdown-item" href="studentgallery.html">Students Gallery</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item mx-3">
+                    <a class="nav-link fw-semibold" href="blogs.html">Blogs</a>
+                  </li>
+                </ul>
+              
+                
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              </div>
+            </div>
+          </nav>
+     </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Start -->
+      <section class="breadcrumb-section py-3">
+          <div class="container">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb mb-0">
+                      <li class="breadcrumb-item">
+                          <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                          Find Doctor
+                      </li>
+                  </ol>
+              </nav>
+          </div>
+      </section>
+    <!-- Breadcrumb End -->
+      
+
+    <!-- Main Start -->
+
+    <!-- Slider Start -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/doctorslider.webp" class="d-block w-100" alt="doctor">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Slider Ends -->
+
+    <!-- Find a Doctor Start -->
+
+    <section class="container">
+
+      <div class="container my-5">
+          <h2 class="mb-3">Find Doctors at Aditya Birla Memorial Hospital</h2>
+
+          <div class="search-box">
+          <input type="text" placeholder="Find a doctor by doctor's name or specialty" class="search-input">
+
+          <button class="search-btn">
+              <i class="bi bi-search"></i>
+          </button>
+          </div>
+
+      </div>
+
+    </section>
+
+    <section>
+      <div class="container">
+      <h5>Showing All Doctors</h5>
+
+      <!-- Doctors 1st Row -->
+      <div class="row g-4 p-3">
+
+              <!-- Doctor 1 --> 
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-rajiv-sethi.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Rajiv Sethi</h2>
+                      <p class="text-center">Senior Director</p>
+                      <a href="#" class="profile-btn">View Profile</a>
+
+                  </div>
+              </div>
+
+              <!-- Doctor 2 -->
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-rakesh-ranjan.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Rakesh Ranjan</h2>
+                      <p class="text-center">Senior Director</p>
+                      <a href="#" class="profile-btn">View Profile</a>
+
+                  </div>
+              </div>
+
+              <!-- Doctor 3 -->
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-nikhil-parwate.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Nikhil Parwate</h2>
+                      <p class="text-center">Associate Director</p>
+                      <a href="#" class="profile-btn container-fluid">View Profile</a>
+
+                  </div>
+              </div>
+
+          </div>
+
+        <!-- Doctors 2nd Row -->
+        <div class="row g-4 p-3">
+    
+              <!-- Doctor 4 --> 
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-annapoorna-kalia.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Annapoorna Ajit Kalia</h2>
+                      <p class="text-center">Sr. Consultant</p>
+                      <a href="#" class="profile-btn">View Profile</a>
+
+                  </div>
+              </div>
+
+              <!-- Doctor 5 -->
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-tushar-warke.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Tushar Anil Warke</h2>
+                      <p class="text-center">Associate Consultant</p>
+                      <a href="#" class="profile-btn">View Profile</a>
+
+                  </div>
+              </div>
+
+              <!-- Doctor 6 -->
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-amit-patil.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Amit Patil</h2>
+                      <p class="text-center">Associate Director</p>
+                      <a href="#" class="profile-btn container-fluid">View Profile</a>
+
+                  </div>
+              </div>
+
+          </div>
+
+        <!-- Doctors 3rd Row -->
+        <div class="row g-4 p-3">
+    
+              <!-- Doctor 7 --> 
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-abhijeet-lonari.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Abhijeet Dinesh Lonari</h2>
+                      <p class="text-center">Senior Consultant</p>
+                      <a href="#" class="profile-btn">View Profile</a>
+
+                  </div>
+              </div>
+
+              <!-- Doctor 8 -->
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-akanksha-sharma.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Akanksha Sharma</h2>
+                      <p class="text-center">Physiotherapist</p>
+                      <a href="#" class="profile-btn">View Profile</a>
+
+                  </div>
+              </div>
+
+              <!-- Doctor 9 -->
+              <div class="col-lg-4 col-md-6">
+                  <div class="doctor-card">
+
+                      <div class="doctor-img">
+                          <img src="images/dr-sakshi-chanewar.webp" alt="doctor">
+                      </div>
+
+                      <h2 class="text-center">Dr. Sakshi Chanewar</h2>
+                      <p class="text-center">General Dentist</p>
+                      <a href="#" class="profile-btn container-fluid">View Profile</a>
+
+                  </div>
+              </div>
+
+          </div>
+
+          
+
+      </div>
+    </section>
+
+    <!-- Find a Doctor Ends -->
+
+    <!-- Doctors Page Pagination Start -->
+    <section class="mt-3">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="find_doctor.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="find_doctor_2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="find_doctor_3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="find_doctor_4.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="find_doctor_5.html">5</a></li>
+        <li class="page-item">
+          <a class="page-link" href="find_doctor_2.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+    </section>
+
+    <!-- Doctors Page Pagination End -->
+    
+    <!-- Main End -->
+
+
+    <!-- Footer Start -->
+    <footer class="bg-light py-5 navbar">
+      <section class="footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/logo.png" width="400" class="img-fluid mb-4">
+                    <p>
+                        <strong>
+                            PRIME HEALTH MEMORIAL HOSPITAL,
+                            PRIME HEALTH HOSPITAL MARG,
+                            CHINCHWAD, PUNE - 411033,
+                            MAHARASHTRA, INDIA.
+                        </strong>
+                    </p>
+                    <p><i class="bi bi-telephone-fill"></i> +91 9500085774</p>
+                    <p><i class="bi bi-envelope-fill"></i> helpdesk@primehealth.com</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> Get Direction</p>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23327.209777906286!2d73.8093775729573!3d18.679055528541372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b7caabf16d05%3A0x9a4a412040909d0f!2sPrime%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1784356197284!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+                        width="100%"
+                        height="200"
+                        style="border:0;"
+                        loading="lazy">
+                    </iframe>
+
+                    <div class="mt-2">
+                        <a href="#"><i class="bi bi-instagram fs-1 me-4 symbol"></i></a>
+                        <a href="#"><i class="bi bi-facebook fs-1 me-4 symbol"></i></a>
+                        <a href="#"><i class="bi bi-linkedin fs-1 me-4 symbol"></i></a>
+                        <a href="#"><i class="bi bi-twitter fs-1 symbol"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="hcolor">Quick Links</h4>
+                            <ul class="list-unstyled"><p>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="homeservices.html">Patient Care</a></li>
+                                <li><a href="programs.html">Programs</a></li>
+                                <li><a href="blogs.html">Blogs</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                <li><a href="terms&conditions.html">Terms and Conditions</a></li></p>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="hcolor">Contact</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="find_doctor.html">Find a Doctor</a></li>
+                                <li><a href="book_appointment.html">Book Appointment</a></li>
+                                <li><a href="homeservices.html">Health Packages</a></li>
+                                <li><a href="emergency.html">Emergency</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-5 ">
+                      <div class="col-md-6">
+                      <h4 class="hcolor">Emergency Number</h4>
+                      <p>+91 9850666718</p>
+                      </div>
+                      <div class="col-md-6">
+                        <h4 class="hcolor">Toll free number</h4>
+                        <p>020 52055511 / 020 77877710</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                  <h4>Appointment Number</h4>
+                  <p>+91 9850777718</p>
+                  </div>
+                </div>
+           </div>
+            <picture class="d-flex justify-content-end">
+              <img src="images/btlogo.webp" width="100" height="100" class="img-fluid" alt="logo "/>
+            </picture>
+        </div>
+        </div>
+      </section>
+    </footer>
+
+    <section class="ft-color">
+        <div class="contianer-fluid">
+          <div class="row">
+            <hr class="border-dark">
+              <div class="text-center text-dark ">
+                <p>COPYRIGHT <i class="bi bi-c-circle"></i> 2026 | PRIME HEALTH SERVICES PRIVATE LIMITED. | ALL RIGHTS RESERVED | DESIGNED & POWERED BY MIND FRAME INDIA</p>
+               </div>
+          </div>
+        </div>
+      </section>
+    <!-- Footer End -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
