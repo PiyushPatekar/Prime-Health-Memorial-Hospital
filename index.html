@@ -1,112 +1,231 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Prime Health Memorial Hospital</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link href="css/style.css" rel="stylesheet"/>
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
   <body>
     <!-- Header Start -->
-     <header>
-          <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="Logo" width="340" height="60" class="img-fluid">
-              </a>
-              <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-bottom " id="navbarNav">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg shadow-sm sticky-top navbar sticky-top bg-body-tertiary"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/logo.png"
+              alt="Logo"
+              width="340"
+              height="60"
+              class="img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-bottom"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item mx-3">
+                <a class="nav-link fw-semibold" href="about.html">About Us</a>
+              </li>
 
-                <ul class="navbar-nav">
-                  <li class="nav-item mx-3">
-                    <a class="nav-link fw-semibold" href="about.html">About Us</a>
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="patient_care.html"
+                  data-bs-toggle="dropdown"
+                >
+                  Patient Care
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="find_doctor.html"
+                      >Find Doctor</a
+                    >
                   </li>
-
-                  <li class="nav-item dropdown mx-3">
-                    <a class="nav-link dropdown-toggle fw-semibold" href="patient_care.html" data-bs-toggle="dropdown">
-                      Patient Care
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="find_doctor.html">Find Doctor</a></li>
-                      <li><a class="dropdown-item" href="appointments.html">Book Appointment</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown mx-3">
-                    <a class="nav-link dropdown-toggle fw-semibold" href="service.html" data-bs-toggle="dropdown">
-                      Services
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="dianostic_services.html">Our Specialities</a></li>
-                      <li><a class="dropdown-item" href="homeservices.html">Home Care Services</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown mx-3">
-                    <a class="nav-link dropdown-toggle fw-semibold" href="academics.html" data-bs-toggle="dropdown">
-                      Academics
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="programs.html">Programs</a></li>
-                      <li><a class="dropdown-item" href="internship.html">Internship & Observership</a></li>
-                      <li><a class="dropdown-item" href="studentgallery.html">Students Gallery</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item mx-3">
-                    <a class="nav-link fw-semibold" href="blogs.html">Blogs</a>
+                  <li>
+                    <a class="dropdown-item" href="appointments.html"
+                      >Book Appointment</a
+                    >
                   </li>
                 </ul>
-              
-                
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    
-                  </form>
-              </div>
-            </div>
-          </nav>
-     </header>
+              </li>
+
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="service.html"
+                  data-bs-toggle="dropdown"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="dianostic_services.html"
+                      >Our Specialities</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="homeservices.html"
+                      >Home Care Services</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown mx-3">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="academics.html"
+                  data-bs-toggle="dropdown"
+                >
+                  Academics
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="programs.html">Programs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="internship.html"
+                      >Internship & Observership</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="studentgallery.html"
+                      >Students Gallery</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item mx-3">
+                <a class="nav-link fw-semibold" href="blogs.html">Blogs</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- Header End -->
 
     <!-- Main Start -->
-     <main>
+    <main>
       <section>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="5000">
-              <img src="images/slider4.webp" class="d-block w-100" alt="slider1">
+              <img
+                src="images/slider4.webp"
+                class="d-block w-100"
+                alt="slider1"
+              />
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="images/slider1.webp" class="d-block w-100" alt="slider2">
+              <img
+                src="images/slider1.webp"
+                class="d-block w-100"
+                alt="slider2"
+              />
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="images/slider2.webp" class="d-block w-100" alt="slider3">
+              <img
+                src="images/slider2.webp"
+                class="d-block w-100"
+                alt="slider3"
+              />
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="images/slider3.webp" class="d-block w-100" alt="slider4">
+              <img
+                src="images/slider3.webp"
+                class="d-block w-100"
+                alt="slider4"
+              />
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -114,19 +233,22 @@
       </section>
 
       <!-- Appointment Section Start -->
-       <section class="mt-2">
+      <section class="mt-2">
         <div class="container">
-
           <h1>Best Multispeciality Hospital in Pimpri-Chinchwad Pune</h1>
-         
+
           <div class="row mt-4 mb-5">
-            
-          <h2 class="mb-3">Book Your Appointment Online</h2>
+            <h2 class="mb-3">Book Your Appointment Online</h2>
 
             <div class="col-md-3">
               <div class="transform text-center p-3">
                 <a href="appointments.html">
-                  <img src="images/logo_book_appointment.webp" class="img-fluid mb-3" width="100" alt="Book Appointment">
+                  <img
+                    src="images/logo_book_appointment.webp"
+                    class="img-fluid mb-3"
+                    width="100"
+                    alt="Book Appointment"
+                  />
                   <h5>Book an Appointment</h5>
                 </a>
               </div>
@@ -135,8 +257,13 @@
             <div class="col-md-3">
               <div class="transform text-center p-3">
                 <a href="Laboratory.html">
-                  <img src="images/logo_dignosticlab.webp" class="img-fluid mb-3" width="100" alt="dignostic lab">
-                  <h5>Diagnostic <br>Services</h5>
+                  <img
+                    src="images/logo_dignosticlab.webp"
+                    class="img-fluid mb-3"
+                    width="100"
+                    alt="dignostic lab"
+                  />
+                  <h5>Diagnostic <br />Services</h5>
                 </a>
               </div>
             </div>
@@ -144,8 +271,13 @@
             <div class="col-md-3">
               <div class="transform text-center p-3">
                 <a href="homeservices.html">
-                  <img src="images/logo_heart.webp" class="img-fluid mb-3" width="100" alt="heart">
-                  <h5>Wellness <br>Packages</h5>
+                  <img
+                    src="images/logo_heart.webp"
+                    class="img-fluid mb-3"
+                    width="100"
+                    alt="heart"
+                  />
+                  <h5>Wellness <br />Packages</h5>
                 </a>
               </div>
             </div>
@@ -153,20 +285,23 @@
             <div class="col-md-3">
               <div class="transform text-center p-3">
                 <a>
-                  <img src="images/logo_Group.webp" class="img-fluid mb-3" width="100" alt="group">
+                  <img
+                    src="images/logo_Group.webp"
+                    class="img-fluid mb-3"
+                    width="100"
+                    alt="group"
+                  />
                   <h5>International Patients</h5>
                 </a>
               </div>
             </div>
-
           </div>
-
         </div>
-       </section>
+      </section>
       <!-- Appointment Section End -->
 
       <!-- Specialties Section Start -->
-       <section class="bg-color p-4">
+      <section class="bg-color p-4">
         <div class="container">
           <h1 class="mt-2 mb-4">Our Specialities</h1>
 
@@ -174,7 +309,13 @@
             <div class="col-md-4">
               <div class="transform2 text-center p-4">
                 <picture>
-                  <img src="images/cardiac.png" height="100" width="100" class="img-fluid" alt="heart"/>
+                  <img
+                    src="images/cardiac.png"
+                    height="100"
+                    width="100"
+                    class="img-fluid"
+                    alt="heart"
+                  />
                 </picture>
                 <h3 class="mt-3">Cardiac Sciences</h3>
               </div>
@@ -182,7 +323,13 @@
             <div class="col-md-4">
               <div class="transform2 text-center p-4">
                 <picture>
-                  <img src="images/neuroscience.png" height="100" width="100" class="img-fluid" alt="neuro-science"/>
+                  <img
+                    src="images/neuroscience.png"
+                    height="100"
+                    width="100"
+                    class="img-fluid"
+                    alt="neuro-science"
+                  />
                 </picture>
                 <h3 class="mt-3">Neuro Sciences</h3>
               </div>
@@ -190,7 +337,13 @@
             <div class="col-md-4">
               <div class="transform2 text-center p-4">
                 <picture>
-                  <img src="images/robotic1.png" height="100" width="100" class="img-fluid" alt="robotic-surgery"/>
+                  <img
+                    src="images/robotic1.png"
+                    height="100"
+                    width="100"
+                    class="img-fluid"
+                    alt="robotic-surgery"
+                  />
                 </picture>
                 <h3 class="mt-3">Robotic Surgery</h3>
               </div>
@@ -201,7 +354,13 @@
             <div class="col-md-4">
               <div class="transform2 text-center p-4">
                 <picture>
-                  <img src="images/mother&son.png" height="100" width="100" class="img-fluid" alt="mother-son"/>
+                  <img
+                    src="images/mother&son.png"
+                    height="100"
+                    width="100"
+                    class="img-fluid"
+                    alt="mother-son"
+                  />
                 </picture>
                 <h3 class="mt-3">Mother & Child</h3>
               </div>
@@ -209,7 +368,13 @@
             <div class="col-md-4">
               <div class="transform2 text-center p-4">
                 <picture>
-                  <img src="images/ortho.png" height="100" width="100" class="img-fluid" alt="orthopedic"/>
+                  <img
+                    src="images/ortho.png"
+                    height="100"
+                    width="100"
+                    class="img-fluid"
+                    alt="orthopedic"
+                  />
                 </picture>
                 <h3 class="mt-3">Orthopedic</h3>
               </div>
@@ -217,98 +382,111 @@
             <div class="col-md-4">
               <div class="transform2 text-center p-4">
                 <picture>
-                  <img src="images/gaestro.png" height="100" width="100" class="img-fluid" alt="gaestro"/>
+                  <img
+                    src="images/gaestro.png"
+                    height="100"
+                    width="100"
+                    class="img-fluid"
+                    alt="gaestro"
+                  />
                 </picture>
                 <h3 class="mt-3">Gastroenterology</h3>
               </div>
             </div>
           </div>
-
         </div>
-       </section>
+      </section>
       <!-- Specialties Section End -->
 
       <!-- Why Choose Aditya Birla Start -->
 
-       <section class="p-5">
+      <section class="p-5">
         <div class="container">
           <div class="row">
             <div class="col-md-5 p-4">
               <picture>
-                <img src="images/why-choose.png" width="3728" height="1476" class="img-fluid" alt="hospital"/>
+                <img
+                  src="images/why-choose.png"
+                  width="3728"
+                  height="1476"
+                  class="img-fluid"
+                  alt="hospital"
+                />
               </picture>
             </div>
             <div class="col-md-7 p-2">
               <h4 class="hcolor">Why Choose Prime Health Memorial Hospital</h4>
-              <p class="para">At Prime Health Memorial Hospital, often regarded as the best hospital in Pimpri Pune our 500-bed, NABH-accredited facility brings together some of Pune's finest specialists, ensuring exceptional care for all your health needs. Unlike other hospitals in Pimpri-Chinchwad, Pune, with visiting consultants, our full-time specialists are dedicated solely to your care, they follow your progress, understand your case thoroughly, and are available round-the-clock. We have invested in cutting-edge medical technology typically found in premium facilities, but made it accessible to families across Hinjewadi, Wakad, Baner, Aundh, Pimple Saudagar, Bhosari, Ravet, Chinchwad Gaon, Tathawade, Nigdi, Moshi, Chakan, Pimpri, and nearby areas.</p>
+              <p class="para">
+                At Prime Health Memorial Hospital, often regarded as the best
+                hospital in Pimpri Pune our 500-bed, NABH-accredited facility
+                brings together some of Pune's finest specialists, ensuring
+                exceptional care for all your health needs. Unlike other
+                hospitals in Pimpri-Chinchwad, Pune, with visiting consultants,
+                our full-time specialists are dedicated solely to your care,
+                they follow your progress, understand your case thoroughly, and
+                are available round-the-clock. We have invested in cutting-edge
+                medical technology typically found in premium facilities, but
+                made it accessible to families across Hinjewadi, Wakad, Baner,
+                Aundh, Pimple Saudagar, Bhosari, Ravet, Chinchwad Gaon,
+                Tathawade, Nigdi, Moshi, Chakan, Pimpri, and nearby areas.
+              </p>
             </div>
           </div>
         </div>
-       </section>
+      </section>
 
       <!-- Why Choose Aditya Birla End -->
 
       <!-- Our team experts Start -->
 
       <section class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div>
+            <h1>Our Team of Experts</h1>
+            <div class="heading-line"></div>
+          </div>
+        </div>
 
-          <div class="d-flex justify-content-between align-items-center mb-3">
-              <div>
-                  <h1>Our Team of Experts</h1>
-                  <div class="heading-line"></div>
+        <div class="row g-4 p-3">
+          <!-- Doctor 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="doctor-card">
+              <div class="doctor-img">
+                <img src="images/dr-rajiv-sethi.webp" alt="doctor" />
               </div>
 
+              <h2 class="text-center">Dr. Rajiv Sethi</h2>
+              <p class="text-center">Senior Director</p>
+              <a href="#" class="profile-btn">View Profile</a>
+            </div>
           </div>
 
-          <div class="row g-4 p-3">
-
-              <!-- Doctor 1 --> 
-              <div class="col-lg-4 col-md-6">
-                  <div class="doctor-card">
-
-                      <div class="doctor-img">
-                          <img src="images/dr-rajiv-sethi.webp" alt="doctor">
-                      </div>
-
-                      <h2 class="text-center">Dr. Rajiv Sethi</h2>
-                      <p class="text-center">Senior Director</p>
-                      <a href="#" class="profile-btn">View Profile</a>
-
-                  </div>
+          <!-- Doctor 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="doctor-card">
+              <div class="doctor-img">
+                <img src="images/dr-rakesh-ranjan.webp" alt="doctor" />
               </div>
 
-              <!-- Doctor 2 -->
-              <div class="col-lg-4 col-md-6">
-                  <div class="doctor-card">
-
-                      <div class="doctor-img">
-                          <img src="images/dr-rakesh-ranjan.webp" alt="doctor">
-                      </div>
-
-                      <h2 class="text-center">Dr. Rakesh Ranjan</h2>
-                      <p class="text-center">Senior Director</p>
-                      <a href="#" class="profile-btn">View Profile</a>
-
-                  </div>
-              </div>
-
-              <!-- Doctor 3 -->
-              <div class="col-lg-4 col-md-6">
-                  <div class="doctor-card">
-
-                      <div class="doctor-img">
-                          <img src="images/dr-nikhil-parwate.webp" alt="doctor">
-                      </div>
-
-                      <h2 class="text-center">Dr. Nikhil Parwate</h2>
-                      <p class="text-center">Associate Director</p>
-                      <a href="#" class="profile-btn container-fluid">View Profile</a>
-
-                  </div>
-              </div>
-
+              <h2 class="text-center">Dr. Rakesh Ranjan</h2>
+              <p class="text-center">Senior Director</p>
+              <a href="#" class="profile-btn">View Profile</a>
+            </div>
           </div>
 
+          <!-- Doctor 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="doctor-card">
+              <div class="doctor-img">
+                <img src="images/dr-nikhil-parwate.webp" alt="doctor" />
+              </div>
+
+              <h2 class="text-center">Dr. Nikhil Parwate</h2>
+              <p class="text-center">Associate Director</p>
+              <a href="#" class="profile-btn container-fluid">View Profile</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- Our team experts End -->
@@ -316,298 +494,368 @@
       <!-- What our patients are speaking Start -->
 
       <section class="container my-5">
-          <div class="d-flex justify-content-between align-items-center mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div>
+            <h1>Hear What Our Patients Are Speaking</h1>
+          </div>
+        </div>
 
-              <div>
-                  <h1>Hear What Our Patients Are Speaking</h1>
+        <!-- Carousel -->
+        <div id="feedbackCarousel" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <!-- ================= Feedback 1 ================= -->
+
+            <div class="carousel-item active">
+              <div class="feedback-box">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        width="460"
+                        height="215"
+                        src="https://www.youtube.com/embed/uLdUiFRh8fw?si=7uTlq3qGgEIYhB4T"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                          accelerometer;
+                          autoplay;
+                          clipboard-write;
+                          encrypted-media;
+                          gyroscope;
+                          picture-in-picture;
+                          web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <p class="feedback-text">
+                      Mr. Sachin Chavan extends his heartfelt gratitude to
+                      Aditya Birla Memorial Hospital and Dr. Manish Mali for
+                      their exceptional care in managing his dialysis treatment
+                      over the past eight years. He deeply appreciates the warm
+                      support provided by the hospital staff.
+                    </p>
+
+                    <h3>Patient's Feedback</h3>
+
+                    <p>Mr. Sachin Chavan</p>
+                  </div>
+                </div>
               </div>
+            </div>
 
+            <!-- ================= Feedback 2 ================= -->
+
+            <div class="carousel-item">
+              <div class="feedback-box">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        width="460"
+                        height="215"
+                        src="https://www.youtube.com/embed/DZlY8H_Agb8?si=_BF1CokL-W9m5J0i"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                          accelerometer;
+                          autoplay;
+                          clipboard-write;
+                          encrypted-media;
+                          gyroscope;
+                          picture-in-picture;
+                          web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <p class="feedback-text">
+                      Mr. Rajebhau Kekan expresses heartfelt gratitude to Aditya
+                      Birla Memorial Hospital for the exceptional orthopedic
+                      treatment and care received during his recovery.
+                    </p>
+
+                    <h3>Patient's Feedback</h3>
+
+                    <p>Mr. Rajebhau Kekan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= Feedback 3 ================= -->
+
+            <div class="carousel-item">
+              <div class="feedback-box">
+                <div class="row align-items-center">
+                  <div class="col-lg-6">
+                    <div class="ratio ratio-16x9">
+                      <iframe
+                        width="460"
+                        height="215"
+                        src="https://www.youtube.com/embed/GiYtunB2A18?si=JtX8p1mTPh9rC_JO"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                          accelerometer;
+                          autoplay;
+                          clipboard-write;
+                          encrypted-media;
+                          gyroscope;
+                          picture-in-picture;
+                          web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <p class="feedback-text">
+                      Siddheshwar Dabre thanks Aditya Birla Memorial Hospital
+                      and Dr. Prateek Agarwal for the excellent treatment
+                      provided to his son. He appreciates the prompt medical
+                      attention and caring hospital staff.
+                    </p>
+
+                    <h3>Patient's Feedback</h3>
+
+                    <p>Mr. Siddheshwar Dabre</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <!-- Carousel -->
-          <div id="feedbackCarousel" class="carousel slide" data-bs-ride="false">
+          <!-- Previous Button -->
 
-              <div class="carousel-inner">
+          <button
+            class="carousel-control-prev custom-btn"
+            type="button"
+            data-bs-target="#feedbackCarousel"
+            data-bs-slide="prev"
+          >
+            <i class="bi bi-chevron-left"></i>
+          </button>
 
-                  <!-- ================= Feedback 1 ================= -->
+          <!-- Next Button -->
 
-                  <div class="carousel-item active">
-
-                      <div class="feedback-box">
-
-                          <div class="row align-items-center">
-
-                              <div class="col-lg-6">
-
-                                  <div class="ratio ratio-16x9">
-                                      <iframe width="460" height="215" src="https://www.youtube.com/embed/uLdUiFRh8fw?si=7uTlq3qGgEIYhB4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                  </div>
-
-                              </div>
-
-                              <div class="col-lg-6">
-
-                                  <p class="feedback-text">
-                                      Mr. Sachin Chavan extends his heartfelt gratitude to Aditya Birla Memorial Hospital and Dr. Manish Mali for their exceptional care in managing his dialysis treatment over the past eight years. He deeply appreciates the warm support provided by the hospital staff.
-                                  </p>
-
-                                  <h3>Patient's Feedback</h3>
-
-                                  <p>Mr. Sachin Chavan</p>
-
-                              </div>
-
-                          </div>
-
-                      </div>
-
-                  </div>
-
-                  <!-- ================= Feedback 2 ================= -->
-
-                  <div class="carousel-item">
-
-                      <div class="feedback-box">
-
-                          <div class="row align-items-center">
-
-                              <div class="col-lg-6">
-
-                                  <div class="ratio ratio-16x9">
-                                      <iframe width="460" height="215" src="https://www.youtube.com/embed/DZlY8H_Agb8?si=_BF1CokL-W9m5J0i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                  </div>
-
-                                </div>
-
-                              <div class="col-lg-6">
-
-                                  <p class="feedback-text">
-                                      Mr. Rajebhau Kekan expresses heartfelt gratitude to Aditya Birla Memorial Hospital for the exceptional orthopedic treatment and care received during his recovery.
-                                  </p>
-
-                                  <h3>Patient's Feedback</h3>
-
-                                  <p>Mr. Rajebhau Kekan</p>
-
-                              </div>
-
-                          </div>
-
-                      </div>
-
-                  </div>
-
-                  <!-- ================= Feedback 3 ================= -->
-
-                  <div class="carousel-item">
-
-                      <div class="feedback-box">
-
-                          <div class="row align-items-center">
-
-                              <div class="col-lg-6">
-
-                                  <div class="ratio ratio-16x9">
-                                      <iframe width="460" height="215" src="https://www.youtube.com/embed/GiYtunB2A18?si=JtX8p1mTPh9rC_JO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                  </div>
-
-                              </div>
-
-                              <div class="col-lg-6">
-
-                                  <p class="feedback-text">
-                                      Siddheshwar Dabre thanks Aditya Birla Memorial Hospital and Dr. Prateek Agarwal for the excellent treatment provided to his son. He appreciates the prompt medical attention and caring hospital staff.
-                                  </p>
-
-                                  <h3>Patient's Feedback</h3>
-
-                                  <p>Mr. Siddheshwar Dabre</p>
-
-                              </div>
-
-                          </div>
-
-                      </div>
-
-                  </div>
-
-              </div>
-
-              <!-- Previous Button -->
-
-              <button class="carousel-control-prev custom-btn"
-                      type="button"
-                      data-bs-target="#feedbackCarousel"
-                      data-bs-slide="prev">
-
-                  <i class="bi bi-chevron-left"></i>
-
-              </button>
-
-              <!-- Next Button -->
-
-              <button class="carousel-control-next custom-btn"
-                      type="button"
-                      data-bs-target="#feedbackCarousel"
-                      data-bs-slide="next">
-
-                  <i class="bi bi-chevron-right"></i>
-
-              </button>
-
-          </div>
-
+          <button
+            class="carousel-control-next custom-btn"
+            type="button"
+            data-bs-target="#feedbackCarousel"
+            data-bs-slide="next"
+          >
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
       </section>
       <!-- What our patients are speaking End -->
-
 
       <!-- Why we stand out Start -->
 
       <section class="mt-5 mb-4">
-
         <div class="container">
           <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h1>Why We Stand Out?</h1>
-              </div>
+            <h1>Why We Stand Out?</h1>
+          </div>
 
           <div class="row">
-
             <div class="col-md-4 whychoose">
               <picture>
-                <img src="images/class-dr.webp" width="150" height="150" class="img-fluid" alt="doctor"/>
+                <img
+                  src="images/class-dr.webp"
+                  width="150"
+                  height="150"
+                  class="img-fluid"
+                  alt="doctor"
+                />
               </picture>
               <h4 class="mt-4">World Class Doctors</h4>
-              <p>Our dedicated team of skilled healthcare professionals stays current on the latest medical advancements and utilizes cutting-edge technologies to ensure the highest quality care for our patients.</p>
+              <p>
+                Our dedicated team of skilled healthcare professionals stays
+                current on the latest medical advancements and utilizes
+                cutting-edge technologies to ensure the highest quality care for
+                our patients.
+              </p>
             </div>
 
             <div class="col-md-4 whychoose">
               <picture>
-                <img src="images/adv.technology.webp" width="150" height="150" class="img-fluid" alt="technology"/>
+                <img
+                  src="images/adv.technology.webp"
+                  width="150"
+                  height="150"
+                  class="img-fluid"
+                  alt="technology"
+                />
               </picture>
               <h4 class="mt-4">Advance Technology</h4>
-              <p>Our commitment to technological advancement ensures that we are always at the forefront of medical innovative medical technology, which allows us to provide more accurate diagnoses, more effective treatments, and a more personalized patient experience.</p>
+              <p>
+                Our commitment to technological advancement ensures that we are
+                always at the forefront of medical innovative medical
+                technology, which allows us to provide more accurate diagnoses,
+                more effective treatments, and a more personalized patient
+                experience.
+              </p>
             </div>
 
             <div class="col-md-4 whychoose">
               <picture>
-                <img src="images/pt-care.webp" width="150" height="150" class="img-fluid" alt="hands"/>
+                <img
+                  src="images/pt-care.webp"
+                  width="150"
+                  height="150"
+                  class="img-fluid"
+                  alt="hands"
+                />
               </picture>
               <h4 class="mt-4">Compassionate Care</h4>
-              <p>Our team of compassionate caregivers is dedicated to providing emotional support and comfort to our patients and their families. We firmly believe that empathy and understanding are essential components of holistic healthcare.</p>
+              <p>
+                Our team of compassionate caregivers is dedicated to providing
+                emotional support and comfort to our patients and their
+                families. We firmly believe that empathy and understanding are
+                essential components of holistic healthcare.
+              </p>
             </div>
-
           </div>
         </div>
-
       </section>
 
       <!-- Why we stand out End -->
-      
-
-
     </main>
     <!-- Main End -->
-
 
     <!-- Footer Start -->
     <footer class="bg-light py-5 navbar">
       <section class="footer-bg">
         <div class="container">
-            <div class="row">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/logo.png" width="400" class="img-fluid mb-4" />
+              <p>
+                <strong>
+                  PRIME HEALTH MEMORIAL HOSPITAL, PRIME HEALTH HOSPITAL MARG,
+                  CHINCHWAD, PUNE - 411033, MAHARASHTRA, INDIA.
+                </strong>
+              </p>
+              <p><i class="bi bi-telephone-fill"></i> +91 9500085774</p>
+              <p>
+                <i class="bi bi-envelope-fill"></i> helpdesk@primehealth.com
+              </p>
+              <p><i class="bi bi-geo-alt-fill"></i> Get Direction</p>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23327.209777906286!2d73.8093775729573!3d18.679055528541372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b7caabf16d05%3A0x9a4a412040909d0f!2sPrime%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1784356197284!5m2!1sen!2sin"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                width="100%"
+                height="200"
+                style="border: 0"
+                loading="lazy"
+              >
+              </iframe>
+
+              <div class="mt-2">
+                <a href="#"><i class="bi bi-instagram fs-1 me-4 symbol"></i></a>
+                <a href="#"><i class="bi bi-facebook fs-1 me-4 symbol"></i></a>
+                <a href="#"><i class="bi bi-linkedin fs-1 me-4 symbol"></i></a>
+                <a href="#"><i class="bi bi-twitter fs-1 symbol"></i></a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="row">
                 <div class="col-md-6">
-                    <img src="images/logo.png" width="400" class="img-fluid mb-4">
+                  <h4 class="hcolor">Quick Links</h4>
+                  <ul class="list-unstyled">
                     <p>
-                        <strong>
-                            PRIME HEALTH MEMORIAL HOSPITAL,
-                            PRIME HEALTH HOSPITAL MARG,
-                            CHINCHWAD, PUNE - 411033,
-                            MAHARASHTRA, INDIA.
-                        </strong>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="homeservices.html">Patient Care</a></li>
+                      <li><a href="programs.html">Programs</a></li>
+                      <li><a href="blogs.html">Blogs</a></li>
+                      <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                      <li>
+                        <a href="terms&conditions.html">Terms and Conditions</a>
+                      </li>
                     </p>
-                    <p><i class="bi bi-telephone-fill"></i> +91 9500085774</p>
-                    <p><i class="bi bi-envelope-fill"></i> helpdesk@primehealth.com</p>
-                    <p><i class="bi bi-geo-alt-fill"></i> Get Direction</p>
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23327.209777906286!2d73.8093775729573!3d18.679055528541372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b7caabf16d05%3A0x9a4a412040909d0f!2sPrime%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1784356197284!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
-                        width="100%"
-                        height="200"
-                        style="border:0;"
-                        loading="lazy">
-                    </iframe>
-
-                    <div class="mt-2">
-                        <a href="#"><i class="bi bi-instagram fs-1 me-4 symbol"></i></a>
-                        <a href="#"><i class="bi bi-facebook fs-1 me-4 symbol"></i></a>
-                        <a href="#"><i class="bi bi-linkedin fs-1 me-4 symbol"></i></a>
-                        <a href="#"><i class="bi bi-twitter fs-1 symbol"></i></a>
-                    </div>
+                  </ul>
                 </div>
-
                 <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h4 class="hcolor">Quick Links</h4>
-                            <ul class="list-unstyled"><p>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="homeservices.html">Patient Care</a></li>
-                                <li><a href="programs.html">Programs</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
-                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                                <li><a href="terms&conditions.html">Terms and Conditions</a></li></p>
-
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="hcolor">Contact</h4>
-                            <ul class="list-unstyled">
-                                <li><a href="find_doctor.html">Find a Doctor</a></li>
-                                <li><a href="book_appointment.html">Book Appointment</a></li>
-                                <li><a href="homeservices.html">Health Packages</a></li>
-                                <li><a href="emergency.html">Emergency</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="row mt-5 ">
-                      <div class="col-md-6">
-                      <h4 class="hcolor">Emergency Number</h4>
-                      <p>+91 9850666718</p>
-                      </div>
-                      <div class="col-md-6">
-                        <h4 class="hcolor">Toll free number</h4>
-                        <p>020 52055511 / 020 77877710</p>
-                    </div>
+                  <h4 class="hcolor">Contact</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="find_doctor.html">Find a Doctor</a></li>
+                    <li>
+                      <a href="book_appointment.html">Book Appointment</a>
+                    </li>
+                    <li><a href="homeservices.html">Health Packages</a></li>
+                    <li><a href="emergency.html">Emergency</a></li>
+                  </ul>
                 </div>
+              </div>
 
-                <div class="row">
-                  <div class="col-md-12">
+              <div class="row mt-5">
+                <div class="col-md-6">
+                  <h4 class="hcolor">Emergency Number</h4>
+                  <p>+91 9850666718</p>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="hcolor">Toll free number</h4>
+                  <p>020 52055511 / 020 77877710</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
                   <h4>Appointment Number</h4>
                   <p>+91 9850777718</p>
-                  </div>
                 </div>
-           </div>
+              </div>
+            </div>
             <picture class="d-flex justify-content-end">
-              <img src="images/btlogo.webp" width="100" height="100" class="img-fluid" alt="logo "/>
+              <img
+                src="images/btlogo.webp"
+                width="100"
+                height="100"
+                class="img-fluid"
+                alt="logo "
+              />
             </picture>
-        </div>
+          </div>
         </div>
       </section>
     </footer>
 
     <section class="ft-color">
-        <div class="contianer-fluid">
-          <div class="row">
-            <hr class="border-dark">
-              <div class="text-center text-dark ">
-                <p>COPYRIGHT <i class="bi bi-c-circle"></i> 2026 | PRIME HEALTH SERVICES PRIVATE LIMITED. | ALL RIGHTS RESERVED | DESIGNED & POWERED BY MIND FRAME INDIA</p>
-               </div>
+      <div class="contianer-fluid">
+        <div class="row">
+          <hr class="border-dark" />
+          <div class="text-center text-dark">
+            <p>
+              COPYRIGHT <i class="bi bi-c-circle"></i> 2026 | PRIME HEALTH
+              SERVICES PRIVATE LIMITED. | ALL RIGHTS RESERVED | DESIGNED &
+              POWERED BY MIND FRAME INDIA
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     <!-- Footer End -->
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
